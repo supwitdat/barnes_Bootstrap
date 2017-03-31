@@ -1,10 +1,6 @@
 
-html {
-height: 100%;
-width: 100%
-}
 
-body {
+html, body {
   height: 100%;
   width: 100%;
   background-color: black;
@@ -13,7 +9,6 @@ body {
 #galleryBody {
   background-color: black;
   background-image: none;
-
 }
 
 h1, h3, a {
@@ -23,11 +18,10 @@ h1, h3, a {
 
 .glyphicons {
   color: white;
-
 }
 
 nav .navbar .navbar-inverse {
-  margin: 0 0 0 0px
+  margin: 0 0 0 0px;
 }
 
 .navbar-inverse {
@@ -46,6 +40,7 @@ nav .navbar .navbar-inverse {
 
 /**MAIN CONTENT INDEX***/
 
+/** splits body in half **/
 .halfsy {
   height: 90%;
   width: 50%;
@@ -58,7 +53,6 @@ nav .navbar .navbar-inverse {
   border: 1px solid black;
   background-color: green;
   z-index: 101;
-
 }
 
 .jumbotron {
@@ -69,13 +63,14 @@ nav .navbar .navbar-inverse {
   background-color: rgba(120, 111, 98, 0.3);
 }
 
-/**YOUTUBE CODE**/
+/**CODE for responsive video**/
 
 .videoWrapperOuter {
   max-width:640px;
   margin-left:auto;
   margin-right:auto;
 }
+
 .videoWrapperInner {
   float: none;
   clear: both;
@@ -85,6 +80,7 @@ nav .navbar .navbar-inverse {
   padding-top: 25px;
   height: 0;
 }
+
 .videoWrapperInner iframe {
   position: absolute;
   top: 0;
@@ -94,4 +90,7 @@ nav .navbar .navbar-inverse {
 }
 
 /**GALLERY PAGE***/
-s
+
+.imgbuffer {
+  margin: 10px;
+}
